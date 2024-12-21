@@ -28,6 +28,7 @@ public class HomeFragment extends Fragment {
 
         binding = FragmentHomeBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
+        //
 
         List<ItemGV> items = new ArrayList<>();
         items.add(new ItemGV(1, "Nguyễn Quang Ninh", "22115053122326"));
