@@ -50,6 +50,10 @@ public class NotificationsFragment extends Fragment {
     }
 
     private void addUser() {
+        String ten = txtTen.getText().toString().trim();
+        String lop = txtLop.getText().toString().trim();
+        String masv = txtMasv.getText().toString().trim();
+
 
     }
 

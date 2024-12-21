@@ -2,14 +2,14 @@ package com.example.nhom4_124tldt01;
 
 public class User {
     private int id;
-    private int ten;
-    private int lop;
-    private int masv;
+    private String ten;
+    private String lop;
+    private String masv;
 
     public User() {
     }
 
-    public User(int id, int ten, int lop, int masv) {
+    public User(int id, String ten, String lop, String masv) {
         this.id = id;
         this.ten = ten;
         this.lop = lop;
@@ -24,27 +24,27 @@ public class User {
         this.id = id;
     }
 
-    public int getTen() {
+    public String getTen() {
         return ten;
     }
 
-    public void setTen(int ten) {
+    public void setTen(String ten) {
         this.ten = ten;
     }
 
-    public int getLop() {
+    public String getLop() {
         return lop;
     }
 
-    public void setLop(int lop) {
+    public void setLop(String lop) {
         this.lop = lop;
     }
 
-    public int getMasv() {
+    public String getMasv() {
         return masv;
     }
 
-    public void setMasv(int masv) {
+    public void setMasv(String masv) {
         this.masv = masv;
     }
 
@@ -52,9 +52,9 @@ public class User {
     public String toString() {
         return "User{" +
                 "id=" + id +
-                ", ten=" + ten +
-                ", lop=" + lop +
-                ", masv=" + masv +
+                ", ten='" + ten + '\'' +
+                ", lop='" + lop + '\'' +
+                ", masv='" + masv + '\'' +
                 '}';
     }
 }
